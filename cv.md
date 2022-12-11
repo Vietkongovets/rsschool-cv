@@ -16,5 +16,6 @@ function squareDigits(num){
 }
 ```
 4. I have no experince 
-5. 
+5. Traffic management engineer| Belarusian State Academy of Aviation
+   Air Traffic Controller | Technical Universete of Košice  
 6. English level: B2
