@@ -1,9 +1,12 @@
-body {
-    background-color: powderblue;
+.header {
+	top:20px;
 }
-h1 {
-    color: blue;
+.main {
+	padding-top:100px;
 }
-p {
-    color: red;
+.posLeft {
+	margin-left:-66%;
+}
+.posCenter {
+	margin-left:33%;
 }
