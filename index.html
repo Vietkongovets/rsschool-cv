@@ -4,13 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
+    <title>CV Kirillov</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
   </head>
   <body>
+    <header>
+    <nav>
+     <ul>
+      <li>Contacts</li>
+      <li>Education</li>
+      <li>About me</li>
+      <li>Skills</li>
+      <li>Code</li>
+     </ul>
+  </nav>
+</header>
 <main>
-    <h1>Nikita Kirillov</h1>
+  <img src="" alt="Nikita Kirillov Photo">
+    <h1> Nikita Kirillov</h1>
     <h2>Contacts:</h2>
       <ul>
        <li>Instagram:@nikiteikin</li>
@@ -23,8 +35,23 @@
       <li>Belarusian State Academy of Aviation [Belarus] | 2015-2020 | Air Traffic Mangment Engineer</li>
      <li>Technical University of Kosice [Slovakia] | 2020-P.T. | Air Traffic Controller </li>
     </ul>
+    <h2>About me:</h2>
+    <p>*Since life has become gray and boring, I decided to challenge myself and retrain in another field of activity. That's why I chose this course. I'm 25, young and handsome, two higher educations in the field of aviation. Stress-resistant, kind and open to communication.*</p>
+    <code>
+    function squareDigits(num){
+      //may the code be with you
+      let number = '' + num;
+      let newNum = new Array();
+      number.split('').map(n => {
+        newNum.push(n**2);
+      })
+    
+      return parseInt(newNum.join(''));
+    }
+    ``` </code>
 </main>
-<footer>GitHub:</footer>
+<footer><a href="https://github.com/Vietkongovets">GitHub</a></footer>
 	<script src="index.js"></script>
+  <
   </body>
 </html>
