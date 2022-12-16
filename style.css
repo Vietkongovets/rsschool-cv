@@ -1,3 +1,6 @@
 .header {
-	background-color: aqua;
+	background-color: darkblue;
+	position: relative;
+	font-size: 20px;
+	color: white;
 }
