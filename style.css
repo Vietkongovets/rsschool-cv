@@ -1,3 +1,6 @@
+html {
+	scroll-behavior: smooth;
+  }
 header {
 	background-color: #004f98;
 	position: relative;
@@ -6,6 +9,8 @@ header {
 }
 .li-nav { display: inline;
 	margin-left: 10px;
+	list-style: none;
+	padding: 0px 20px;
 
 }
 footer {

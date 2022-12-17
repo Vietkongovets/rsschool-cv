@@ -12,33 +12,33 @@
     <header>
     <nav>
      <ul>
-      <li class="li-nav">Contacts</li>
-      <li class="li-nav">Education</li>
-      <li class="li-nav">About me</li>
-      <li class="li-nav">Skills</li>
-      <li class="li-nav">Code</li>
+      <li class="li-nav"><a href="#contacts"> Contacts</a></li>
+      <li class="li-nav"><a href="#education">Education</a></li>
+      <li class="li-nav"><a href="#aboutme">About me</a></li>
+      <li class="li-nav"><a href="#skills">Skills</a></li>
+      <li class="li-nav"><a href="#code">Code</a></li>
      </ul>
   </nav>
 </header>
 <main>
-  <img src="./img/ava.jpg" alt="Nikita Kirillov Photo" width="240" height="240">
+  <img src="./assets/img/ava.jpg" alt="Nikita Kirillov Photo" width="240" height="240" align: left;>
     <h1> Nikita Kirillov</h1>
-    <h2>Contacts:</h2>
-      <ul style="">
+    <h2 id="contacts">Contacts:</h2>
+      <ul>
        <li>Minsk, Belarus</li>
        <li>Instagram:@nikiteikin</li>
        <li>Telegram:@nikiteikin</li>
        <li>Gmail:kirillofn33@gmail.com</li>
       </ul>
       <br>
-     <h2>Education:</h2>
+     <h2 id="education">Education:</h2>
      <ul>
       <li>Belarusian State Academy of Aviation [Belarus] | 2015-2020 | Air Traffic Mangment Engineer</li>
      <li>Technical University of Kosice [Slovakia] | 2020-P.T. | Air Traffic Controller </li>
     </ul>
-    <h2>About me:</h2>
+    <h2 id="aboutme">About me:</h2>
     <p>*Since life has become gray and boring, I decided to challenge myself and retrain in another field of activity. That's why I chose this course. I'm 25, young and handsome, two higher educations in the field of aviation. Stress-resistant, kind and open to communication.*</p>
-    <code>
+    <code id="code"><pre>
     function squareDigits(num){
       //may the code be with you
       let number = '' + num;
@@ -48,10 +48,22 @@
       })
       return parseInt(newNum.join(''));
     }
-    ``` </code>
+     </pre></code>
+    <h2 id="skills">Skills</h2>
+    <p>
+      <ul>
+        <li>Microsoft Office: Confident user </li>
+        <li>Photoshop level: Beginner</li>
+        <li>English level:B1-B2</li>
+      </ul>
+    </p>
 </main>
-<footer><a href="https://github.com/Vietkongovets">GitHub</a></footer>
+<footer>
+  <img src="./assets/svg/rs_school_js.svg" alt="RS-School logo" width="75">
+  <a href="https://github.com/Vietkongovets">GitHub</a>
+  <a href="https://rs.school/js/">RS-school</a>
+  <span>2022. Nikita Kirillov</span>
+</footer>
 	<script src="index.js"></script>
-  <
   </body>
 </html>
