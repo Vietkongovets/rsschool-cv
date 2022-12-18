@@ -6,39 +6,62 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CV Kirillov</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./assets/svg/rs_school_js.svg" type="image/svg">
   </head>
   <body>
+    <div class="wrapper">
     <header>
     <nav>
      <ul>
-      <li class="li-nav"><a href="#contacts"> Contacts</a></li>
-      <li class="li-nav"><a href="#education">Education</a></li>
-      <li class="li-nav"><a href="#aboutme">About me</a></li>
-      <li class="li-nav"><a href="#skills">Skills</a></li>
-      <li class="li-nav"><a href="#code">Code</a></li>
+       <li class="li-nav"><a href="#contacts"> Contacts</a></li>
+       <li class="li-nav"><a href="#education">Education</a></li>
+       <li class="li-nav"><a href="#aboutme">About me</a></li>
+       <li class="li-nav"><a href="#skills">Skills</a></li>
+       <li class="li-nav"><a href="#code">Code</a></li>
      </ul>
-  </nav>
+    </nav>
 </header>
-<main>
-  <img src="./assets/img/ava.jpg" alt="Nikita Kirillov Photo" width="240" height="240" align: left;>
-    <h1> Nikita Kirillov</h1>
-    <h2 id="contacts">Contacts:</h2>
+<main class="main-container">
+  <section class="section">
+   <img  class="avatar" src="./assets/img/ava.jpg" alt="Nikita Kirillov Photo" width="240" height="240" align: left;>
+  </section>
+  <br>
+    <section class="section">
+      <h1> Nikita Kirillov</h1>
+      <ul>
+        <li>Age: 25 y.o.</li>
+        <li>City of born: Irkutsk, Russia</li>
+        <li>Zodiac sign: Cancer</li>
+        <li>Curent location: Kosice, Slovakia</li>
+      </ul>
+    </section>
+    <section class="section">
+      <h2 id="contacts">Contacts:</h2>
       <ul>
        <li>Minsk, Belarus</li>
        <li>Instagram:@nikiteikin</li>
        <li>Telegram:@nikiteikin</li>
        <li>Gmail:kirillofn33@gmail.com</li>
       </ul>
+    </section>
       <br>
-     <h2 id="education">Education:</h2>
-     <ul>
-      <li>Belarusian State Academy of Aviation [Belarus] | 2015-2020 | Air Traffic Mangment Engineer</li>
-     <li>Technical University of Kosice [Slovakia] | 2020-P.T. | Air Traffic Controller </li>
-    </ul>
+      <section class="section">
+       <h2 id="education">Education:</h2>
+        <ul>
+         <li>Belarusian State Academy of Aviation [Belarus] | 2015-2020 | Air Traffic Mangment Engineer</li>
+         <li>Technical University of Kosice [Slovakia] | 2020-P.T. | Air Traffic Controller </li>
+        </ul>
+      </section>
+  <section class="section">
     <h2 id="aboutme">About me:</h2>
-    <p>*Since life has become gray and boring, I decided to challenge myself and retrain in another field of activity. That's why I chose this course. I'm 25, young and handsome, two higher educations in the field of aviation. Stress-resistant, kind and open to communication.*</p>
-    <code id="code"><pre>
+    <p> Since life has become gray and boring, I decided to challenge myself and retrain in another field of activity.
+      That's why I chose this course. I'm 25, young and handsome, two higher educations in the field of aviation.
+       Stress-resistant, kind and open to communication.</p>
+  </section>
+    <section class="section">
+      <code>
+        <h2 id="code">Code</h2>
+        <pre>
     function squareDigits(num){
       //may the code be with you
       let number = '' + num;
@@ -48,22 +71,34 @@
       })
       return parseInt(newNum.join(''));
     }
-     </pre></code>
+      </pre>
+     </code>
+    </section>
+  <section class="section" id="skills">
     <h2 id="skills">Skills</h2>
     <p>
       <ul>
         <li>Microsoft Office: Confident user </li>
-        <li>Photoshop level: Beginner</li>
+        <li>Photoshop: Beginner</li>
         <li>English level:B1-B2</li>
       </ul>
     </p>
+  </section>
+  <section class="section">
+    <h2>Courses:</h2>
+    <ul>
+      <li>The Complete 2023 Web Development Bootcamp</li>
+      <li>Adobe Premiere Pro CC Masterclass: Video Editing in Premiere</li>
+    </ul>
+  </section>
 </main>
 <footer>
   <img src="./assets/svg/rs_school_js.svg" alt="RS-School logo" width="75">
-  <a href="https://github.com/Vietkongovets">GitHub</a>
-  <a href="https://rs.school/js/">RS-school</a>
-  <span>2022. Nikita Kirillov</span>
+  <a href="https://github.com/Vietkongovets">| GitHub |</a>
+  <a href="https://rs.school/js/">| RS School |</a>
+  <span style="text-align: center;">| Nikita Kirillov 2022 |</span>
 </footer>
+</div>
 	<script src="index.js"></script>
   </body>
 </html>
