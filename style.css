@@ -17,6 +17,8 @@ header {
 }
 main{
 	flex: 1 1 auto;
+	margin: auto;
+
 }
 
 .li-nav { display: inline;
@@ -43,6 +45,7 @@ align-items: center;
 	flex-wrap: wrap;
 	margin-top: 75px;
 	margin-bottom: 75px;
+	margin-left: 10px;
   }
   .section {
 	width: 50%;
