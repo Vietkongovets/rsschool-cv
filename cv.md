@@ -11,7 +11,7 @@ function squareDigits(num){
   number.split('').map(n => {
     newNum.push(n**2);
   })
-  
+
   return parseInt(newNum.join(''));
 }
 ```
